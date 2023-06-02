@@ -27,6 +27,7 @@
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
-    "webpack": "^5.85.0"
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1"
   }
 }
