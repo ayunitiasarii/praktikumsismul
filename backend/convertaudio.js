@@ -8,7 +8,7 @@ const fs = require("fs");
 const router = express.Router();
 
 router.use("/uploads_convert_audio", express.static("uploads_convert_audio"));
-// Konfigurasi penyimpanan file menggunakan multer
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "uploads_convert_audio/");
@@ -24,7 +24,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ dest: "uploads_convert_audio/" });
 
-// Endpoint untuk mengunggah file audio
+
 router.post("/upload", upload.single("audio"), (req, res) => {
   if (req.file) {
     const { originalname, mimetype, size } = req.file;
@@ -40,7 +40,7 @@ router.post("/upload", upload.single("audio"), (req, res) => {
   }
 });
 
-// Endpoint untuk konversi format audio
+
 router.post("/convert", upload.single("audio"), (req, res) => {
   if (req.file) {
     const { format } = req.body;
@@ -74,7 +74,7 @@ router.post("/convert", upload.single("audio"), (req, res) => {
   }
 });
 
-// Endpoint untuk mengunduh file
+
 router.get("/download/:filename", (req, res) => {
   const { filename } = req.params;
   const filePath = path.join(__dirname, "uploads_convert_audio", filename);
