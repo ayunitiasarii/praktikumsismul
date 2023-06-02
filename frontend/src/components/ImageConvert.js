@@ -134,6 +134,7 @@ function ImageConvert() {
               variant="primary"
               onClick={handleUpload}
               style={{ marginTop: "10px" }}
+              className="custom-button"
             >
               Konversi
             </Button>
@@ -195,7 +196,9 @@ function ImageConvert() {
                 <p>Gambar Asli : {compressionDetails.originalSize}</p>
                 <p>Hasil Kompresi : {compressionDetails.processedSize}</p>
                 <p>Rasio Kompresi : {compressionDetails.compressionRatio}%</p>
-                <Button onClick={handleDownload}>Download Gambar</Button>
+                <Button onClick={handleDownload} className="custom-button">
+                  Download Gambar
+                </Button>
               </Card.Body>
             </Card>
           )}

@@ -148,6 +148,7 @@ function AudioMerge() {
                   onClick={handleMerge}
                   disabled={isLoading}
                   className="me-2"
+                  style={{ fontWeight: "bold" }}
                 >
                   {isLoading ? "Loading..." : "Gabunggkan Audio"}
                 </Button>
@@ -155,6 +156,7 @@ function AudioMerge() {
                   variant="primary"
                   onClick={handleMergeWithBacksound}
                   disabled={isLoading}
+                  className="custom-button"
                 >
                   {isLoading ? "Loading..." : "Tambah Backsound"}
                 </Button>

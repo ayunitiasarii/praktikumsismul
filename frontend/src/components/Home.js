@@ -47,7 +47,7 @@ function Home() {
                 <Nav.Link
                   as={Link}
                   to="/image-convert"
-                  className="btn btn-primary btn-lg"
+                  className="custom-button btn-primary btn-lg"
                 >
                   Konversi Gambar
                 </Nav.Link>
@@ -69,7 +69,7 @@ function Home() {
                 <Nav.Link
                   as={Link}
                   to="/audio-convert"
-                  className="btn btn-primary btn-lg"
+                  className="custom-button btn-primary btn-lg"
                 >
                   Konversi Audio
                 </Nav.Link>
@@ -94,7 +94,7 @@ function Home() {
                 <Nav.Link
                   as={Link}
                   to="/audio-merge"
-                  className="btn btn-primary btn-lg"
+                  className="custom-button btn-primary btn-lg"
                 >
                   Gabungkan Audio
                 </Nav.Link>

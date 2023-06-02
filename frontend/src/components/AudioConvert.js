@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import {
   Container,
   Row,
@@ -154,6 +154,7 @@ function AudioConvert() {
                   variant="primary"
                   onClick={handleUpload}
                   style={{ marginTop: "10px" }}
+                  className="custom-button"
                 >
                   {loading ? (
                     <>
@@ -189,7 +190,7 @@ function AudioConvert() {
                   variant="primary"
                   onClick={handleConvert}
                   disabled={!selectedFile || !format}
-                  style={{ marginTop: "10px" }}
+                  style={{ marginTop: "10px", fontWeight:"bold" }}
                 >
                   {loading ? (
                     <>

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack",
+    "build": "echo \"No build specified\" && exit 1",
     "test": "echo \"No test specified\" && exit 1",
     "start": "node index.js"
   },
@@ -25,9 +25,5 @@
     "sharp": "^0.32.1",
     "uuid": "^9.0.0",
     "uuidv4": "^6.2.13"
-  },
-  "devDependencies": {
-    "webpack": "^5.85.0",
-    "webpack-cli": "^5.1.1"
   }
 }

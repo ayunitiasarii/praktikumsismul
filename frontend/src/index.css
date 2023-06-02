@@ -3,3 +3,10 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+.custom-button {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
