@@ -4,3 +4,8 @@ Praktikum Sistem Multimedia
 
 Arba Adhy Pamungkas
 
+
+Link Instasi Fluent
+
+https://www.gyan.dev/ffmpeg/builds/
+
