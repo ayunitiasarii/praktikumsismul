@@ -1,8 +1,8 @@
-Praktikum Sistem Multimedia
+UTS Praktikum Sistem Multimedia
 
-1207050016
+1207050020
 
-Arba Adhy Pamungkas
+Ayuni Tia Sari
 
 
 Link Instalasi Fluent
