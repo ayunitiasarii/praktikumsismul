@@ -6,7 +6,7 @@ function Footer() {
     <footer className="mt-5">
       <Container>
         <p className="text-center">
-          &copy; {new Date().getFullYear()} Arbaap <br></br>Praktikum Sistem
+          &copy; {new Date().getFullYear()} Ayunitsr <br></br>Praktikum Sistem
           Multimedia.
         </p>
       </Container>

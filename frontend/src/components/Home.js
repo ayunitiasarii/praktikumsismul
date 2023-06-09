@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import backgroundsatu from "../assets/backgroundsatu.jpg";
 import backgrounddua from "../assets/backgrounddua.jpg";
-import backgroundtiga from "../assets/backgroundtiga.jpg";
 
 function Home() {
   return (
@@ -12,8 +11,8 @@ function Home() {
       <Row>
         <Col xs={12} md={4} className="text-center mt-5 my-auto">
           <h5>Praktikum Sistem Multimedia</h5>
-          <h5>Arba Adhy Pamungkas</h5>
-          <h5>1207050016</h5>
+          <h5>Ayuni Tia Sari</h5>
+          <h5>1207050020</h5>
         </Col>
         <Col xs={12} md={8}>
           <Carousel
@@ -36,7 +35,7 @@ function Home() {
                   className="d-block w-100"
                   src={backgroundsatu}
                   alt="First slide"
-                  style={{ borderRadius: "10px" }}
+                  style={{ borderRadius: "0px" }}
                 />
               </div>
               <Carousel.Caption>
@@ -72,31 +71,6 @@ function Home() {
                   className="custom-button btn-primary btn-lg"
                 >
                   Konversi Audio
-                </Nav.Link>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <h3>Penggabungan Audio</h3>
-              <div style={{ borderRadius: "10px", overflow: "hidden" }}>
-                <img
-                  className="d-block w-100"
-                  src={backgroundtiga}
-                  alt="Second slide"
-                  style={{ borderRadius: "10px" }}
-                />
-              </div>
-              <Carousel.Caption>
-                <p>
-                  Penggabungan audio , mulai dari menggabungkan 2 file menjadi 1
-                  , dan menambahkan backsound .
-                </p>
-                <Nav.Link
-                  as={Link}
-                  to="/audio-merge"
-                  className="custom-button btn-primary btn-lg"
-                >
-                  Gabungkan Audio
                 </Nav.Link>
               </Carousel.Caption>
             </Carousel.Item>

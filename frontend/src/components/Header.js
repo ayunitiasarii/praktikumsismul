@@ -19,7 +19,7 @@ function Header() {
   return (
     <Navbar className="justify-content-center" bg="dark" variant="dark">
       {renderBackButton()}
-      <Navbar.Brand href="/">Arbaap</Navbar.Brand>
+      <Navbar.Brand href="/">Ayunitsr</Navbar.Brand>
     </Navbar>
   );
 }

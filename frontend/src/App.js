@@ -7,7 +7,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import AudioConvert from "./components/AudioConvert";
-import AudioMerge from "./components/AudioMerge";
 import ImageConvert from "./components/ImageConvert";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/audio-convert" element={<AudioConvert />} />
-          <Route path="/audio-merge" element={<AudioMerge />} />
           <Route path="/image-convert" element={<ImageConvert />} />
         </Routes>
 
